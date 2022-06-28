@@ -142,7 +142,7 @@ function BuildCharts(selected) {
           var layout = { 
             width: 450, 
             height: 400, 
-            margin: { t: 50, b: 0 } 
+            margin: { t: 80, b: 0 } 
           };
           
         Plotly.newPlot('gauge2', bonus, layout);
